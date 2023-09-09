@@ -1,3 +1,9 @@
-const x = 3;
+window.addEventListener('DOMContentLoaded', () => {
+    const reservaBtn = document.getElementById("reservaBtn");
+    
+    reservaBtn.addEventListener("click", () =>{
+        console.log("Gracias por reservar!");
+    })
 
-console.log(x);
+
+})
